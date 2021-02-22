@@ -1,0 +1,106 @@
+@charset "utf-8";
+// registry-main registry-line submitbtn
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.big {
+    width: 980px;
+    height: 491px;
+    margin: 0 184.5px;
+    padding: 40px 0 140px 0;
+    .registry-post {
+        font-size: 14px;
+        color: #fff;
+        height: 35px;
+        display: none;
+        .p-account,
+        .p-company {
+            float: left;
+            width: 490px;
+            height: 35px;
+            text-indent: 40px;
+            line-height: 35px;
+        }
+    }
+}
+
+// 表单框
+// 注册信息主体
+$line-w:635px;
+$span-w:72px;
+$h:40px;
+$input-w:548px;
+$input-h:36px;
+.registry-main {
+    width: 635px;
+    height: 426px;
+    margin: 30px 172.5px 0 172.5px;
+    font-size: 14px;
+    // 信息填写框
+    .registry-line {
+        width: $line-w;
+        height: $h;
+        margin-top: 30px;
+        .registry-name {
+            width: 85px;
+            height: $h;
+            float: left;
+            text-align: center;
+            line-height: $h;
+        }
+        input {
+            width: $input-w;
+            height: $input-h;
+            border: 1px solid #ddd;
+            text-indent: 20px; // 字体首行缩进
+        }
+    }
+}
+
+// 注册类型选项
+.zc {
+    #active {
+        background: #fc002d;
+        color: #fff;
+        border: 1px solid#fc002d;
+    }
+    .user,
+    .firm {
+        display: block;
+        float: left;
+        width: 108px;
+        height: 36px;
+        text-align: center;
+        line-height: $h;
+        border: 1px solid #000;
+    }
+}
+
+// 注册信息提交
+.submitbtn {
+    width: 550px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin: 40px 0 0 85px;
+    background-color: #ddd;
+    color: #999;
+}
+
+.login-link {
+    width: $line-w;
+    height: 12px;
+    margin-top: 16px;
+    font-size: 12px;
+    span {
+        display: block;
+        float: right;
+    }
+    a {
+        line-height: 0;
+        color: #005aa0;
+        text-decoration: none;
+    }
+}

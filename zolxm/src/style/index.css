@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+  background-color: sandybrown;
+}
+
+.head {
+  height: 200px;
+  background-color: #ffa9b7;
+}
+.head span {
+  margin: 0 10px;
+}
+.head .topnav {
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.head .topnav-left,
+.head .topnav-login {
+  float: left;
+  height: 30px;
+}
+.head .topnav-left li,
+.head .topnav-login li {
+  float: left;
+  line-height: 30px;
+}
+.head .topnav-left li a,
+.head .topnav-login li a {
+  font-size: 12px;
+  color: #474747;
+}
+.head .topnav-left li a :hover,
+.head .topnav-login li a :hover {
+  color: red;
+}
+.head .topnav-login {
+  float: right;
+}
+.head .searchnav {
+  height: 112px;
+}
+.head .searchnav .logo {
+  display: block;
+  float: left;
+  width: 330px;
+  height: 60px;
+  margin: 32px 15px 0 0;
+  background: url(https://icon.zol-img.com.cn/ucdn/b-zol-com/1.0.2/img/logo.34b1b031.png) no-repeat;
+}
+.head .search {
+  float: left;
+  margin: 30px 0 0 55px;
+}
+.head .search .searchbox {
+  width: 400px;
+  height: 38px;
+  border: 2px solid #fd4165;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: relative;
+}
+.head .search .searchbox input {
+  width: 350px;
+  height: 30px;
+  float: left;
+  margin-top: 4px;
+  margin-left: 40px;
+}
+.head .search .searchbox .searbtn {
+  width: 75px;
+  height: 42px;
+  position: absolute;
+  right: -77px;
+  top: -2px;
+  background: linear-gradient(90deg, #fd4165, #fc002d);
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+.head .search ul {
+  margin-left: 15px;
+  overflow: hidden;
+}
+.head .search ul li {
+  float: left;
+}
+.head .search ul li a {
+  font-size: 12px;
+  color: #666666;
+}
+.head .buycar {
+  width: 128px;
+  height: 35px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #dfdfdf;
+  margin-left: 110px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #fc002d;
+}
+.head .buycar span {
+  vertical-align: top;
+  margin-left: 2px;
+}
+.head .buycar img {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+.head .erm {
+  float: right;
+  width: 80px;
+  height: 80px;
+  margin: 17px 0 0;
+}
+.head .erm img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.head .nav {
+  width: 100%;
+  background-color: #fc002d;
+  height: 35px;
+}
+.head .navs {
+  line-height: 35px;
+}
+.head .navs .navs-left {
+  float: left;
+  width: 230px;
+  height: 35px;
+  color: #fff;
+  background-color: #800017;
+  text-align: center;
+}
+.head .navs a {
+  display: block;
+  float: left;
+  width: 115px;
+  height: 35px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main {
+  height: 400px;
+  background-color: royalblue;
+}
+
+.footer {
+  height: 140px;
+  background-color: #8f8f8f;
+}
+
+/*# sourceMappingURL=index.css.map */

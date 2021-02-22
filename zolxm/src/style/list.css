@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.list li {
+  width: 220px;
+  padding: 10px 10px 0;
+  float: left;
+  margin-bottom: 24px;
+  height: 313px;
+  position: relative;
+}
+.list li a {
+  text-decoration: none;
+  color: black;
+}
+.list li p {
+  width: 220px;
+  height: 90px;
+  line-height: 24px;
+  margin: 8px 0 9px 0;
+  font-size: 12px;
+  overflow: hidden;
+}
+.list li p a:hover {
+  color: #fc002d;
+}
+.list li img {
+  width: 200px;
+  height: 165px;
+  display: block;
+}
+.list li span {
+  display: block;
+  color: red;
+  font-size: 20px;
+}
+
+.navbox {
+  width: 1200px;
+  height: 143px;
+  margin: auto;
+}
+.navbox dl {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  border: 1px solid #d3d3d3;
+  font-size: 12px;
+  position: relative;
+}
+.navbox dl dt {
+  width: 94px;
+  height: 28px;
+  font: 12px/28px Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1";
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  float: left;
+}
+.navbox dl dd {
+  width: 1050px;
+  float: left;
+  padding: 14px 10px;
+  margin-left: 100px;
+  border-left: 1px solid #d3d3d3;
+}
+.navbox dl dd a {
+  margin-right: 30px;
+}
+
+.px {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #fc002d;
+}
+.px .active {
+  background-color: #fc002d;
+  color: #fff;
+}
+.px li {
+  width: 140px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.pagelist {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.m-style {
+  margin-right: 380px;
+}
+
+/*# sourceMappingURL=list.css.map */

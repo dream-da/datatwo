@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中关村在线企业购</title>
+    <link rel="stylesheet" href="http://10.31.165.19/zolxm/src/style/registry.css">
+    <script src="http://10.31.165.19/zolxm/src/script/registry_module.js" type="module"></script>
+</head>
+
+<body>
+    <div class="big">
+        <div class="registry-post" style="background: url(img/post.png);">
+            <p class="p-account">
+                1.填写账户信息
+            </p>
+            <p class="p-company">
+                2.填写企业信息
+            </p>
+        </div>
+        <form action="http://10.31.165.19/zolxm/php/reg.php" method="POST">
+            <div class="registry-main">
+                <div class="registry-line" style="background-color: #fff;">
+                    <div class="registry-name">
+                        <span>注册类型：</span>
+                    </div>
+                    <div class="zc">
+                        <span class="user" id="active">个人注册</span>
+                        <span class="firm">企业注册</span>
+                    </div>
+
+                </div>
+                <div class="registry-line">
+                    <div class="registry-name">
+                        <span>手机号码：</span>
+                    </div>
+                    <input type="text" name="username" class="username" placeholder="请输入账号名称">
+                    <!---->
+                    <p class="tstext"></p>
+                </div>
+                <div class="registry-line">
+                    <div class="registry-name">
+                        <span>登录密码：</span>
+                    </div>
+                    <input input type="password" name="password" class="password" placeholder="请输入密码">
+                    <!---->
+                    <p class="tstext"></p>
+                </div>
+                <div class="registry-line">
+                    <div class="registry-name">
+                        <span>确认密码：</span>
+                    </div>
+                    <input input type="password" name="repass" class="repass" placeholder="请再次输入密码">
+                    <!---->
+                    <p class="tstext"></p>
+                </div>
+                <input type="submit" name="submit" class="submitbtn"></input>
+                <div class="login-link">
+                    <span>
+                        <a href="http://10.31.165.19/zolxm/src/login.html">已有账号登录</a>
+                    </span>
+                </div>
+        </form>
+        </div>
+</body>
+
+</html>
